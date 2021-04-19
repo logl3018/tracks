@@ -1,0 +1,31 @@
+.header {
+    padding: 16px 0 16px 0;
+    background-color: $second-color;
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__lang {
+        font-size: 12px;
+        width: 400;
+        a {
+            margin-right: 10px;
+            &:nth-child(3) {
+                margin-right: 0;
+            }
+        }
+    }
+    &__contacts {
+        font-size: 12px;
+        width: 400;
+    }
+    &__mail {
+        font-size: 12px;
+        width: 400;    
+    }
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
