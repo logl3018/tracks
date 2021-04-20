@@ -1,0 +1,30 @@
+.transportation {
+    display: flex;
+    justify-content: column;
+    height: 620px;
+    background: url("../img/main_bg.jpg") center (center/cover) no-repeat;
+    text-align: center;
+    padding: 155px 0 50px 0;
+    &__item {
+        width: 920px;
+        height: 245px;
+        border: 1px solid $second-color;
+    }
+    &__header {
+        margin-top: 50px;
+        font-size: 64px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__descr {
+        margin-top: 22px;
+        font-size: 18px;
+        color: #FFFFFF;
+        font-weight: 400;
+    }
+    &__mouse {
+        margin-top: 150px;
+    }
+}

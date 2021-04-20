@@ -8,7 +8,7 @@
     }
     &__lang {
         font-size: 12px;
-        width: 400;
+        font-weight: 400;
         a {
             margin-right: 10px;
             &:nth-child(3) {
@@ -18,11 +18,11 @@
     }
     &__contacts {
         font-size: 12px;
-        width: 400;
+        font-weight: 400;
     }
     &__mail {
         font-size: 12px;
-        width: 400;    
+        font-weight: 400;    
     }
     a {
         color: #FFFFFF;
