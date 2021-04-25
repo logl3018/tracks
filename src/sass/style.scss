@@ -10,3 +10,9 @@
 @import 'blocks/header';
 @import 'blocks/subheader';
 @import 'blocks/transportation';
+.divider {
+    width: 90px;
+    height: 6px;
+    color: $main-color;
+}
+@import 'blocks/transfer';
